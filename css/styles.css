@@ -1,0 +1,332 @@
+:root {
+    /* Colors */
+    --primarybrend-txt-cl: #4D5AE5;
+    --pressedstate-txt-cl: #404BBF;
+    --dark-txt-cl: #2E2F42;
+
+    --success-txt-cl: #31D0AA;
+    --success-75: rgda(49, 208, 170, 0.75)
+    --success-50: rgda(49, 208, 170, 0.50)
+    --success-10: rgda(49, 208, 170, 0.10)
+
+    --subtle-text-cl: #2E2F42;
+    --accent-cl: #e7e9fc;
+    --light-mode-cl: #F4F4FD;
+    --modal-overlay-cl: #2E2F42;
+    --hero-background-cl: #2E2F42;
+
+    /* Fonnt */
+
+    --priamyry-font: "Roboto";
+    --secondary-font: "Raleway";
+    --text-decoration: none;
+     
+
+
+}
+
+body {
+    font-family: war (--priamyry-font);
+    text-decoration: none;
+    list-style: none;
+} 
+
+.link {list-style: none;}
+.ul {list-style: none;}
+
+/* черные точки сбросить
+
+можно через ксласс(утилита)
+.list {list-style: nove;}
+
+можно сбросить линкам
+.link {
+    text-decoration:none;
+    list-style: none;
+    color: currentColor;
+}
+
+.btn {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+ }
+
+
+стилизуем списки
+html
+<ul class="site-nav list">
+   <li><a href="" class="link">  
+css 
+.site-nav .link {}
+эфект наведения
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2E2F42;
+}
+
+сделать все одинаковые секциии одним класом, 
+
+КАК ПЕРЕРСЧИТЫВАТ КОЭФИЦИЕНТ
+
+font-size: 42px;
+line-height: calc(49 / 42);
+ */
+
+/*===================Top line===================*/
+
+.page-header {}
+
+.logolink {
+    text-decoration: none;
+}
+
+.class-web {   
+        font-family: war (--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: calc(24 / 18);
+        color: war (--primarybrend-txt-cl);
+        
+        
+}
+
+.class-studio {  
+        font-family: war (--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: calc(24 / 18);
+        color: war (--dark-txt-cl);
+        
+}
+
+.page-nav {}
+
+.list-nav{
+    list-style: none;
+    text-decoration: none;
+}
+.menulink {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        color: war (--dark-txt-cl);
+        
+}
+
+.link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        color: war (--subtle-text-cl);
+        text-decoration: none;
+    
+}
+
+.list-contacts {
+    list-style: none;
+    
+}
+
+.link-class-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: war (--subtle-text-cl);
+    text-decoration: none;
+
+}
+
+.link-class-phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: war (--subtle-text-cl);
+    text-decoration: none;
+}
+/*===================/Top line===================*/
+/*=================== hero image ===================*/
+.main{}
+
+.hero-image { 
+    background: war (--dark-txt-cl);
+}
+
+.hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.batton-hero:hover {
+    background: war (--primarybrend-txt-cl)
+}
+.batton-hero:focus {
+    background: war (--pressedstate-txt-cl);}
+
+.batton-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    background: war (--primarybrend-txt-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   }
+
+.text-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/*=================== /hero image ===================*/
+/*===================Section 1===================*/
+.section-one {}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.item{}
+
+.name-li {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        letter-spacing: 0.02em;
+        color: war (--dark-txt-cl);
+}
+
+.text-section-one{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        color: war (--subtle-text-cl);
+}
+
+/*===================/Section 1===================*/
+/*===================Section 2===================*/
+
+.section-two {}
+
+.text-sec-two {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(40 / 36);
+        letter-spacing: 0.02em;
+        text-transform: capitalize;    
+        color: war (--dark-txt-cl);
+}
+
+.list-sec-two {}
+
+.item-pic {}
+
+.pic {}
+
+/*===================/Section 2===================*/
+/*===================Section 3===================*/
+.section-three{}
+.text-three{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(40 / 36);
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: war (--dark-txt-cl);
+}
+.list-sec-three{}
+.list-person{}
+.pic-person{}
+.name-person{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        letter-spacing: 0.02em;    
+        color: war (--dark-txt-cl);
+}
+.name-profession{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        color: war (--subtle-text-cl);
+}
+
+/*==================/Section 3===================*/
+/*===================Footer===================*/
+
+.footer {
+    background: war (--dark-txt-cl);
+}
+.classf-studio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+     color: #F4F4FD;
+}
+
+.text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;    
+     color: #E7E9FC;
+}
+
+/*===================/Footer===================*/
+
+/*===================Portfolio===================*/
+.main-portfolio {}
+.section-porfolio {}
+.list-filters {
+    list-style: none;
+}
+.filtrer-btn{}
+.filter-button{
+    background: #F4F4FD;    
+}
+.filter-button:hover {
+    background: war (--primarybrend-txt-cl)
+}
+
+.filter-button:focus {
+    background: war (--pressedstate-txt-cl);
+}
+.name-filter{}
+.work-sheet{
+    list-style: none;
+}
+.list-work-sheet{}
+.link-work{
+    text-decoration: none;
+}
+.img-work{}
+.name-work{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        letter-spacing: 0.02em;
+        color: war (--dark-txt-cl);
+}
+.name-link-work{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        color: war (--subtle-text-cl);
+        
+/*===================/Portfolio===================*/
