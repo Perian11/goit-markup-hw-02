@@ -130,8 +130,8 @@ list-style: none; */
     letter-spacing: 0.04em;
     color: var(--background-color);
     font-family: var(--priamyry-font)
-    cursor: pointer;
    }
+.batton-hero {cursor: pointer;}
 
 /* .text-button {} */
 
@@ -147,15 +147,15 @@ list-style: none; */
 /* .item{} */
 
 .name-li {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: calc(24 / 20);
-        letter-spacing: 0.02em;
-        color: var(--dark-txt-cl);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
+    color: var(--dark-txt-cl);
 }
 
 .text-section-one{
-        color: var(--subtle-text-cl);
+    color: var(--subtle-text-cl);
 }
 
 /*===================/Section 1===================*/
@@ -164,11 +164,11 @@ list-style: none; */
 /* .section-two {} */
 
 .text-sec-two {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: calc(40 / 36);
-        text-transform: capitalize;    
-        color: var(--dark-txt-cl);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-transform: capitalize;    
+    color: var(--dark-txt-cl);
 }
 
 /* .list-sec-two {}
@@ -179,23 +179,23 @@ list-style: none; */
 /*===================Section 3===================*/
 /* .section-three{} */
 .text-three{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: calc(40 / 36);
-        text-transform: capitalize;
-        color: var(--dark-txt-cl);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-transform: capitalize;
+    color: var(--dark-txt-cl);
 }
 /* .list-sec-three{}
 .list-person{}
 .pic-person{} */
 .name-person{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: calc(24 / 20);   
-        color: var(--dark-txt-cl);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);   
+    color: var(--dark-txt-cl);
 }
 .name-profession{
-        color: var(--subtle-text-cl);
+    color: var(--subtle-text-cl);
 }
 
 /*==================/Section 3===================*/
@@ -209,7 +209,7 @@ list-style: none; */
     font-size: 18px;
     line-height: calc(21 / 18);
     letter-spacing: 0.03em;
-     color: #F4F4FD;
+    color: #F4F4FD;
 }
 
 .text-footer {
@@ -240,6 +240,9 @@ list-style: none; */
     color: var(--background-color);
     background-color: var(--pressedstate-txt-cl);
 }
+.filter-button {
+        cursor: pointer;
+    }
 
 /* .name-filter{} */
 /* .work-sheet{}
@@ -250,13 +253,13 @@ list-style: none; */
 }
 /* .img-work{} */
 .name-work{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: calc(24 / 20);
-        color: var(--dark-txt-cl);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: var(--dark-txt-cl);
 }
 .name-link-work{
-        color: var(--text-color);
+    color: var(--text-color);
 }
         
 /*===================/Portfolio===================*/
