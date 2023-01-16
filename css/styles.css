@@ -34,44 +34,7 @@ body {
 .link {list-style: none;}
 .ul {list-style: none;}
 
-/* черные точки сбросить
 
-можно через ксласс(утилита)
-.list {list-style: nove;}
-
-можно сбросить линкам
-.link {
-    text-decoration:none;
-    list-style: none;
-    color: currentColor;
-}
-
-.btn {
-    font-family: inherit;
-    color: currentColor;
-    cursor: pointer;
- }
-
-
-стилизуем списки
-html
-<ul class="site-nav list">
-   <li><a href="" class="link">  
-css 
-.site-nav .link {}
-эфект наведения
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2E2F42;
-}
-
-сделать все одинаковые секциии одним класом, 
-
-КАК ПЕРЕРСЧИТЫВАТ КОЭФИЦИЕНТ
-
-font-size: 42px;
-line-height: calc(49 / 42);
- */
 
 /*===================Top line===================*/
 
