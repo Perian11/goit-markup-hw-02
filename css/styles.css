@@ -22,9 +22,6 @@
     --priamyry-font: "Roboto";
     --secondary-font: "Raleway";
     --text-decoration: none;
-     
-
-
 }
 
 body {
@@ -49,7 +46,7 @@ list-style: none; */
 
 /*===================Top line===================*/
 
-.page-header {}
+/* .page-header {} */
 
 
 .logolink {
@@ -65,17 +62,12 @@ list-style: none; */
 .class-studio {
     color: var(--dark-txt-cl);
 }
-.class-web {}
-
-
-
+/* .class-web {}
 .page-nav {}
 
 .list-nav{}
 
-.menulink {
-        
-    }
+.menulink {} */
 
 .link {
     font-weight: 500;
@@ -120,7 +112,7 @@ list-style: none; */
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
-    
+    color: var(--background-color)
 }
 
 .batton-hero:hover {
@@ -145,14 +137,14 @@ list-style: none; */
 
 /*=================== /hero image ===================*/
 /*===================Section 1===================*/
-.section-one {}
+/* .section-one {} */
 
 .list {
     list-style: none;
     text-decoration: none;
 }
 
-.item{}
+/* .item{} */
 
 .name-li {
         font-weight: 500;
@@ -163,59 +155,46 @@ list-style: none; */
 }
 
 .text-section-one{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.02em;
         color: var(--subtle-text-cl);
 }
 
 /*===================/Section 1===================*/
 /*===================Section 2===================*/
 
-.section-two {}
+/* .section-two {} */
 
 .text-sec-two {
         font-weight: 700;
         font-size: 36px;
         line-height: calc(40 / 36);
-        letter-spacing: 0.02em;
         text-transform: capitalize;    
         color: var(--dark-txt-cl);
 }
 
-.list-sec-two {}
-
+/* .list-sec-two {}
 .item-pic {}
-
-.pic {}
+.pic {} */
 
 /*===================/Section 2===================*/
 /*===================Section 3===================*/
-.section-three{}
+/* .section-three{} */
 .text-three{
         font-weight: 700;
         font-size: 36px;
         line-height: calc(40 / 36);
-        letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--dark-txt-cl);
 }
-.list-sec-three{}
+/* .list-sec-three{}
 .list-person{}
-.pic-person{}
+.pic-person{} */
 .name-person{
         font-weight: 500;
         font-size: 20px;
-        line-height: calc(24 / 20);
-        letter-spacing: 0.02em;    
+        line-height: calc(24 / 20);   
         color: var(--dark-txt-cl);
 }
 .name-profession{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.02em;
         color: var(--subtle-text-cl);
 }
 
@@ -229,60 +208,55 @@ list-style: none; */
     font-weight: 800;
     font-size: 18px;
     line-height: calc(21 / 18);
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
      color: #F4F4FD;
 }
 
 .text-footer {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(24 / 16);
-    letter-spacing: 0.02em;    
      color: #E7E9FC;
 }
 
 /*===================/Footer===================*/
 
 /*===================Portfolio===================*/
-.main-portfolio {}
+/* .main-portfolio {}
 .section-porfolio {}
-.list-filters {
-    list-style: none;
-}
-.filtrer-btn{}
-.filter-button{
-    background: #F4F4FD;    
-}
-.filter-button:hover {
-    background: var(--primarybrend-txt-cl)
+.list-filters {}
+.filtrer-btn{} */
+
+.filter-button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primarybrend-txt-cl);
+    background-color: var(--light-mode-cl);
 }
 
+.filter-button:hover,
 .filter-button:focus {
-    background: var(--pressedstate-txt-cl);
+    color: var(--background-color);
+    background-color: var(--pressedstate-txt-cl);
 }
-.name-filter{}
-.work-sheet{
-    list-style: none;
-}
+
+/* .name-filter{} */
+/* .work-sheet{}
 .list-work-sheet{}
+ */
 .link-work{
     text-decoration: none;
 }
-.img-work{}
+/* .img-work{} */
 .name-work{
         font-weight: 500;
         font-size: 20px;
         line-height: calc(24 / 20);
-        letter-spacing: 0.02em;
         color: var(--dark-txt-cl);
 }
 .name-link-work{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.02em;
-        color: var(--subtle-text-cl);
+        color: var(--text-color);
+}
         
 /*===================/Portfolio===================*/
