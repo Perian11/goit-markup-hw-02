@@ -3,6 +3,8 @@
     --primarybrend-txt-cl: #4D5AE5;
     --pressedstate-txt-cl: #404BBF;
     --dark-txt-cl: #2E2F42;
+    --text-color: #434455;
+    --background-color: #FFFFFF;
 
     --success-txt-cl: #31D0AA;
     --success-75: rgda(49, 208, 170, 0.75)
@@ -26,63 +28,66 @@
 }
 
 body {
-    font-family: war (--priamyry-font);
+    font-family: var(--priamyry-font), sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtle-text-cl);
+    background-color: var(--background-color);
+} 
+.decor {
     text-decoration: none;
     list-style: none;
-} 
-
-.link {list-style: none;}
+}
+/* .link {list-style: none;}
 .ul {list-style: none;}
-
-
+ */
+/* text-decoration: none;
+list-style: none; */
 
 /*===================Top line===================*/
 
 .page-header {}
 
+
 .logolink {
-    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.03em;
+    color: var(--primarybrend-txt-cl);
+    text-transform: uppercase;
 }
 
-.class-web {   
-        font-family: war (--secondary-font);
-        font-weight: 800;
-        font-size: 18px;
-        line-height: calc(24 / 18);
-        color: war (--primarybrend-txt-cl);
-        
-        
+.class-studio {
+    color: var(--dark-txt-cl);
 }
+.class-web {}
 
-.class-studio {  
-        font-family: war (--secondary-font);
-        font-weight: 800;
-        font-size: 18px;
-        line-height: calc(24 / 18);
-        color: war (--dark-txt-cl);
-        
-}
+
 
 .page-nav {}
 
-.list-nav{
-    list-style: none;
-    text-decoration: none;
-}
+.list-nav{}
+
 .menulink {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        color: war (--dark-txt-cl);
         
-}
+    }
 
 .link {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        color: war (--subtle-text-cl);
-        text-decoration: none;
+    font-weight: 500;
+    color: var(--dark-txt-cl);    
+}
+
+.link:focus,
+.link:hover { color: var(--primarybrend-txt-cl);
+}
+
+.link.current {
+    color: var(--primarybrend-txt-cl);
     
 }
 
@@ -91,64 +96,52 @@ body {
     
 }
 
-.link-class-mail {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: war (--subtle-text-cl);
-    text-decoration: none;
+.link-class {
+    font-style: normal;
+    color: var(--subtle-text-cl);}
+.link-class:focus,
+.link-class:hover { color: var(--primarybrend-txt-cl);
+        }
 
-}
+/* .mail{}
 
-.link-class-phone {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: war (--subtle-text-cl);
-    text-decoration: none;
-}
+.phone{} */
+
 /*===================/Top line===================*/
 /*=================== hero image ===================*/
-.main{}
 
+/* .main {}
+ */
 .hero-image { 
-    background: war (--dark-txt-cl);
+    background: var(--dark-txt-cl);
 }
 
 .hero {
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+    
 }
 
 .batton-hero:hover {
-    background: war (--primarybrend-txt-cl)
+    background: var(--primarybrend-txt-cl)
 }
 .batton-hero:focus {
-    background: war (--pressedstate-txt-cl);}
+    background: var(--pressedstate-txt-cl);
+}
 
 .batton-hero {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    background: war (--primarybrend-txt-cl);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   }
-
-.text-button {
+    background: var(--primarybrend-txt-cl);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
+    color: var(--background-color);
+    font-family: var(--priamyry-font)
+    cursor: pointer;
+   }
+
+/* .text-button {} */
 
 /*=================== /hero image ===================*/
 /*===================Section 1===================*/
@@ -166,7 +159,7 @@ body {
         font-size: 20px;
         line-height: calc(24 / 20);
         letter-spacing: 0.02em;
-        color: war (--dark-txt-cl);
+        color: var(--dark-txt-cl);
 }
 
 .text-section-one{
@@ -174,7 +167,7 @@ body {
         font-size: 16px;
         line-height: calc(24 / 16);
         letter-spacing: 0.02em;
-        color: war (--subtle-text-cl);
+        color: var(--subtle-text-cl);
 }
 
 /*===================/Section 1===================*/
@@ -188,7 +181,7 @@ body {
         line-height: calc(40 / 36);
         letter-spacing: 0.02em;
         text-transform: capitalize;    
-        color: war (--dark-txt-cl);
+        color: var(--dark-txt-cl);
 }
 
 .list-sec-two {}
@@ -206,7 +199,7 @@ body {
         line-height: calc(40 / 36);
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: war (--dark-txt-cl);
+        color: var(--dark-txt-cl);
 }
 .list-sec-three{}
 .list-person{}
@@ -216,21 +209,21 @@ body {
         font-size: 20px;
         line-height: calc(24 / 20);
         letter-spacing: 0.02em;    
-        color: war (--dark-txt-cl);
+        color: var(--dark-txt-cl);
 }
 .name-profession{
         font-weight: 400;
         font-size: 16px;
         line-height: calc(24 / 16);
         letter-spacing: 0.02em;
-        color: war (--subtle-text-cl);
+        color: var(--subtle-text-cl);
 }
 
 /*==================/Section 3===================*/
 /*===================Footer===================*/
 
 .footer {
-    background: war (--dark-txt-cl);
+    background: var(--dark-txt-cl);
 }
 .classf-studio {
     font-weight: 800;
@@ -263,11 +256,11 @@ body {
     background: #F4F4FD;    
 }
 .filter-button:hover {
-    background: war (--primarybrend-txt-cl)
+    background: var(--primarybrend-txt-cl)
 }
 
 .filter-button:focus {
-    background: war (--pressedstate-txt-cl);
+    background: var(--pressedstate-txt-cl);
 }
 .name-filter{}
 .work-sheet{
@@ -283,13 +276,13 @@ body {
         font-size: 20px;
         line-height: calc(24 / 20);
         letter-spacing: 0.02em;
-        color: war (--dark-txt-cl);
+        color: var(--dark-txt-cl);
 }
 .name-link-work{
         font-weight: 400;
         font-size: 16px;
         line-height: calc(24 / 16);
         letter-spacing: 0.02em;
-        color: war (--subtle-text-cl);
+        color: var(--subtle-text-cl);
         
 /*===================/Portfolio===================*/
